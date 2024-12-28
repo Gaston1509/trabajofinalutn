@@ -35,3 +35,19 @@
     text-align: center;
     margin: 4rem;
 }
+
+
+.pie{
+    height: 240px;
+    background-color: #2F3645;
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cajaPie{
+    padding: 20px;
+
+}
