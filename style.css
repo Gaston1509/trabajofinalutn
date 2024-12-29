@@ -6,6 +6,26 @@
     font-optical-sizing: auto;
     font-weight: 400;
 }
+/* HEADER y NAV */
+.header{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.lista > li{
+    list-style: none;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
 
 .fijo {
     height: 100vh;
@@ -26,16 +46,34 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    text-align: center;
 }
 .caja{
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    width: 420px;
+    margin: 100px;
+}
+.img{
+    width: 100%;
+}
+.textoP{
+    padding: 50px 20px 50px 20px;
+  
 }
 .pContenido{
     font-size: 3rem;
     text-align: center;
     margin: 4rem;
 }
+.ancla{
+    background-color: #2F3645;
+    color: white;
+    width: 400px;
+    text-decoration: none;
+    padding: 10px 120px 10px 120px
+}
 
+/* FOOTER */
 
 .pie{
     height: 240px;
@@ -45,9 +83,36 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 60px 0 60px;
+
+}
+.pieCaja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.pieCaja1 > p5{
+    padding-left: 20px;
+    margin-left: 20px;
 
 }
 .cajaPie{
     padding: 20px;
 
 }
+.imgPie{
+    width: 120px;
+}
+.listFooter{
+    display: block;
+    padding-left: 80px;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+
+
+
