@@ -73,6 +73,31 @@
     padding: 10px 120px 10px 120px
 }
 
+
+/* historia */
+.fijoHistoria{
+    height: 80vh;
+    background-image: url("./assets/imagenes/historia-programacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* CUADRICULA  */
+.contenedorPadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 600px;
+    border: 1px solid gray;
+}
+.item > img{
+    width: 100%;
+   
+}
+
+
 /* FOOTER */
 
 .pie{
