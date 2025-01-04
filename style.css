@@ -1,143 +1,141 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
 }
 /* HEADER y NAV */
-.header{
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.lista{
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+.lista {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
 }
-.lista > li{
-    list-style: none;
-    margin-right: 20px;
-    padding-right: 20px;
-    font-size: 26px;
-    text-transform: uppercase;
+.lista > li {
+  list-style: none;
+  margin-right: 20px;
+  padding-right: 20px;
+  font-size: 26px;
+  text-transform: uppercase;
 }
-
 
 .fijo {
-    height: 100vh;
-    background-image: url("./assets/imagenes/fondo.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  background-image: url("./assets/imagenes/fondo.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .titulo {
-    color: white;
-    letter-spacing: 2px;
-    font-size: 4rem;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 4rem;
 }
-.contenido{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    text-align: center;
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
 }
-.caja{
-    /* border: 1px solid gray; */
-    width: 420px;
-    margin: 100px;
+.caja {
+  /* border: 1px solid gray; */
+  width: 420px;
+  margin: 100px;
 }
-.img{
-    width: 100%;
+.img {
+  width: 100%;
 }
-.textoP{
-    padding: 50px 20px 50px 20px;
-  
+.textoP {
+  padding: 50px 20px 50px 20px;
 }
-.pContenido{
-    font-size: 3rem;
-    text-align: center;
-    margin: 4rem;
+.pContenido {
+  font-size: 3rem;
+  text-align: center;
+  margin: 4rem;
 }
-.ancla{
-    background-color: #2F3645;
-    color: white;
-    width: 400px;
-    text-decoration: none;
-    padding: 10px 120px 10px 120px
+.ancla {
+  background-color: #2f3645;
+  color: white;
+  width: 400px;
+  text-decoration: none;
+  padding: 10px 120px 10px 120px;
 }
-
 
 /* historia */
-.fijoHistoria{
-    height: 80vh;
-    background-image: url("./assets/imagenes/historia-programacion.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.fijoHistoria {
+  height: 80vh;
+  background-image: url("./assets/imagenes/historia-programacion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 160px;
 }
 /* CUADRICULA  */
-.contenedorPadre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.contenedorPadre {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 60px;
 }
-.item{
-    width: 600px;
-    border: 1px solid gray;
+.item {
+  width: 800px;
+  /* border: 1px solid gray; */
+  margin-bottom: 20px;
 }
-.item > img{
-    width: 100%;
-   
+.item > img {
+  width: 100%;
 }
 
+.secciontitulo {
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 /* FOOTER */
 
-.pie{
-    height: 240px;
-    background-color: #2F3645;
-    margin-top: 2rem;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 60px 0 60px;
-
+.pie {
+  height: 240px;
+  background-color: #2f3645;
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px 0 60px;
 }
-.pieCaja1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.pieCaja1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.pieCaja1 > p5{
-    padding-left: 20px;
-    margin-left: 20px;
-
+.pieCaja1 > p5 {
+  padding-left: 20px;
+  margin-left: 20px;
 }
-.cajaPie{
-    padding: 20px;
-
+.cajaPie {
+  padding: 20px;
 }
-.imgPie{
-    width: 120px;
+.imgPie {
+  width: 120px;
 }
-.listFooter{
-    display: block;
-    padding-left: 80px;
-    list-style: none;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 900;
+.listFooter {
+  display: block;
+  padding-left: 80px;
+  list-style: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
 }
-
-
-
-
