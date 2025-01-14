@@ -99,12 +99,14 @@
       </div>
     </section>
     <!-- Video -->
+    <h2 class="tituloVideo">Hablemos un poquito mas...</h2>
     <section class="contenedorVideo">
-      <h2>Hablemos un poquito mas...</h2>
-      <video controls>
+      <video controls class="video" poster="assets/imagenes/img-video.jpg">
         <source src="./assets/video/historia-Comp.ogv" type="video/ogv" />
         <source src="./assets/video/historia-Comp.mp4" type="video/mp4" />
       </video>
+      <button onclick="mostrar()">Click</button>
+      <p>duracion: <span id="duracion"></span></p>
     </section>
 
     <!-- FOOTER -->
@@ -121,5 +123,7 @@
         Sitio con fines educativos - Creado por Gastón Meza
       </div>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
